@@ -15,15 +15,15 @@ Before you begin, ensure you have the following installed:
 
 1.  **Clone the repository:**
     ```bash
-    git clone [your-repository-url]
+    git clone https://github.com/hanannino13/content-scheduler.git
     ```
-    *Replace `[your-repository-url]` with the actual URL of your GitHub repository.*
+    *Replace `https://github.com/hanannino13/content-scheduler.git` with the actual URL of your GitHub repository.*
 
 2.  **Navigate into the project directory:**
     ```bash
     cd your-project-name
     ```
-    *Replace `your-project-name` with the actual name of the cloned directory.*
+    *Replace `https://github.com/hanannino13/content-scheduler.git` with the actual name of the cloned directory.*
 
 3.  **Install PHP dependencies:**
     ```bash
@@ -55,7 +55,7 @@ Before you begin, ensure you have the following installed:
     DB_USERNAME=your_database_user # Change this to your database username
     DB_PASSWORD=your_database_password # Change this to your database password
     ```
-    *Make sure to create the `your_database_name` database in your MySQL server.*
+    *Make sure to create the `content_scheduler` database in your MySQL server.*
 
 8.  **Run database migrations and seeders:**
     This will create the necessary tables in your database and populate them with initial data.
